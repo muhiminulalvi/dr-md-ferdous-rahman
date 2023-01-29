@@ -1,0 +1,18 @@
+/* Utilities */
+h1,h2,h3,h4,h5,h6,button{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (min-width: 577px) {
+    .banner-w1{
+        width: 45%;
+    }
+    .banner-w2{
+        width: 55%;
+    }
+}
