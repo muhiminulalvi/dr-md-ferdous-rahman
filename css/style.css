@@ -3,9 +3,39 @@ h1,h2,h3,h4,h5,h6,button{
     font-family: 'Titillium Web', sans-serif;
 }
 
-p{
+p,span{
     font-family: 'Roboto', sans-serif;
 }
+
+.bg-primary-color{
+    background-color: #FFF8F3;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
+.secondary-color{
+    color: #181818;
+}
+
+.btn-color{
+    background-color: #FD6E0A;
+    color: white;
+}
+
+.btn-color:hover{
+    background-color: white;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A !important;
+}
+
+.div-hover{
+    background: #FFF8F3;
+}
+.div-hover:hover{
+    background: white;
+}
+
 
 
 @media screen and (min-width: 577px) {
@@ -16,3 +46,4 @@ p{
         width: 55%;
     }
 }
+
