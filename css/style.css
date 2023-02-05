@@ -36,6 +36,12 @@ p,span{
     background: white;
 }
 
+.banner{
+    background-image: url(../images/research-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 @media screen and (min-width: 577px) {
